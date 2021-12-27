@@ -40,5 +40,13 @@
     "vite": "^2.7.2",
     "vue-eslint-parser": "^8.0.1",
     "vue-tsc": "^0.29.8"
-  }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
+  },
+  "browserslist": [
+    "> .5%",
+    "last 2 versions",
+    "safari 12"
+  ]
 }
